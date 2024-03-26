@@ -38,12 +38,15 @@ form {
   padding: 0 1.5rem;
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 .main-header__nav {
   height: 100%;
   display: none;
   align-items: center;
+
 }
 
 .main-header__item-list {
@@ -56,6 +59,7 @@ form {
 .main-header__item {
   margin: 0 1rem;
   padding: 0;
+
 }
 
 .main-header__item a {
