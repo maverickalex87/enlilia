@@ -33,6 +33,10 @@
             value="<% if (editing) { %><%= product.price %><% } %>">
         </div>
         <div class="form-control">
+          <label for="author">Author</label>
+          <input type="text" name="author" id="author" value="<% if (editing) { %><%= product.author %><% } %>">
+        </div>
+        <div class="form-control">
           <label for="description">Description</label>
           <textarea name="description" id="description"
             rows="5"><% if (editing) { %><%= product.description %><% } %></textarea>

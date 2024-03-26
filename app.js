@@ -7,13 +7,13 @@ const errorController = require('./controllers/error');
 const mongoConnect = require('./util/database').mongoConnect;
 const User = require('./models/user');
 
-
+const app = express();
 
 app.set('view engine', 'ejs');
 app.set('views', 'views');
 
-const adminRoutes = require('./routes/admin');
-const shopRoutes = require('./routes/shop');
+const adminRoutes = require('./routes/admin.js');
+const shopRoutes = require('./routes/shop.js');
 
 
 app.use(bodyParser.urlencoded({extended: false}));
