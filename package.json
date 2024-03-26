@@ -9,8 +9,12 @@
   "author": "alexandru lupu",
   "license": "ISC",
   "dependencies": {
+    "connect-flash": "^0.1.1",
     "ejs": "^3.1.9",
     "express": "^4.19.2",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.18.0",
+    "express-validator": "^7.0.1",
     "mongoose": "^8.2.3"
   }
 }
